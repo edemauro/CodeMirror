@@ -643,7 +643,6 @@
     else return obj.getValue();
   }
 
-  var diff_match_patch = require('../../lib/diff_match_patch').diff_match_patch;
   var DIFF_DELETE = diff_match_patch.DIFF_DELETE
   var DIFF_EQUAL = diff_match_patch.DIFF_EQUAL
   var DIFF_INSERT = diff_match_patch.DIFF_INSERT
